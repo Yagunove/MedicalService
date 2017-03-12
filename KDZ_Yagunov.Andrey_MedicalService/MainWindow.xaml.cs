@@ -24,5 +24,10 @@ namespace KDZ_Yagunov.Andrey_MedicalService
         {
             InitializeComponent();
         }
+
+        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

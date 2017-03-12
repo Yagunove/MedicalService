@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KDZ_Yagunov.Andrey_MedicalService"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="600" Width="900">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="188,53,0,0" Height="208" Width="350"><Run Text="Please "/><Run Text="stand b"/><Run Text="y."/><LineBreak/><Run Text="Work is in progress for now."/><LineBreak/><Run Text="And stay tuned for updates!"/></TextBlock>
     </Grid>
 </Window>
