@@ -7,6 +7,6 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="900">
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="188,53,0,0" Height="208" Width="350"><Run Text="Please "/><Run Text="stand b"/><Run Text="y."/><LineBreak/><Run Text="Work is in progress for now."/><LineBreak/><Run Text="And stay tuned for updates!"/></TextBlock>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="188,53,0,0" Height="208" Width="350"><Run Text="Please "/><Run Text="stand b"/><Run Text="y."/><LineBreak/><Run Text="Work is in progress for now."/><LineBreak/><Run Text="And stay tuned for updates!"/><LineBreak/><Run Text="For now I've made two commits!"/></TextBlock>
     </Grid>
 </Window>
