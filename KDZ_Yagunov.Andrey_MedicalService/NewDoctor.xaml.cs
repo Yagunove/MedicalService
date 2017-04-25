@@ -10,27 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace KDZ_Yagunov.Andrey_MedicalService
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для NewDoctor.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class NewDoctor : Window
     {
-
-        public MainWindow()
+        public NewDoctor()
         {
-           
+            InitializeComponent();
         }
-
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-        
-       
     }
 }
