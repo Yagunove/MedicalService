@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace KDZ_Yagunov.Andrey_MedicalService
 {
     /// <summary>
-    /// Логика взаимодействия для NewMedicaments.xaml
+    /// Логика взаимодействия для MainPage.xaml
     /// </summary>
-    public partial class NewMedicaments : Window
+    public partial class MainPage : Page
     {
-        public NewMedicaments()
+        public MainPage()
         {
             InitializeComponent();
         }

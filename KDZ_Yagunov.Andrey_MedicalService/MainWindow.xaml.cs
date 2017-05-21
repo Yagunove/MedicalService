@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xml.Serialization;
 
 namespace KDZ_Yagunov.Andrey_MedicalService
 {
@@ -23,14 +25,10 @@ namespace KDZ_Yagunov.Andrey_MedicalService
 
         public MainWindow()
         {
-           
-        }
+            InitializeComponent();
 
-        private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
+            frameMain.Navigate(new LoginPage());
 
         }
-        
-       
-    }
+        }
 }
