@@ -1,0 +1,16 @@
+﻿<Page x:Class="KDZ_Yagunov.Andrey_MedicalService.WhyPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KDZ_Yagunov.Andrey_MedicalService"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="WhyPage">
+
+    <Grid>
+        <Button x:Name="buttonBack" Content="Back to the Login Page" HorizontalAlignment="Left" Height="34" Margin="10,245,0,0" VerticalAlignment="Top" Width="280" Click="buttonBack_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="230" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"><Run Text="Почему после нескольких недель работы с данным приложением как с приложением, в основе структуры котор"/><Run Text="о"/><Run Text="го лежат &quot;окна&quot;, я сделал переход к постраничной навигации?"/><LineBreak/><Run Text="На это есть "/><Run Text="простая причина:"/><LineBreak/><Run Text="Большое количество разделов данного приложения ("/><Run Text="Doctor,Patient, Medicaments)"/><Run Text=" в формате окон либо загромождало бы окно пользователя"/><Run Text=" большим количеством кнопок и боксов"/><Run Text=", либо каждый переход в новый раздел (будь то &quot;"/><Run Text="Add new Doctor"/><Run Text="&quot;"/><Run Text=")"/><Run Text=" создавал бы новые окна"/><Run Text=", из-за чего интерфейс выглядел бы &quot;дерганным&quot;. Но теперь у нас есть постраничная навигация"/><Run Text=", благодаря которой все так удобно."/></TextBlock>
+
+    </Grid>
+</Page>

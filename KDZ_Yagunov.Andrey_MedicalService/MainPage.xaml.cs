@@ -24,5 +24,22 @@ namespace KDZ_Yagunov.Andrey_MedicalService
         {
             InitializeComponent();
         }
+
+        private void buttonDoctor_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.DoctorPage);
+        }
+
+                    private void buttonPatient_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.PatientPage);
+        
+        }
+
+        private void buttonMedicaments_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.MedicamentsPage);
+        }
     }
-}
+    }
+

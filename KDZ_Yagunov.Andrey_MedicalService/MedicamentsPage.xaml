@@ -1,0 +1,16 @@
+﻿<Page x:Class="KDZ_Yagunov.Andrey_MedicalService.MedicamentsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KDZ_Yagunov.Andrey_MedicalService"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+      Title="MedicamentsPage">
+
+    <Grid>
+        <Button x:Name="buttonMain3" Content="Fall back" HorizontalAlignment="Left" Height="129" Margin="59,90,0,0" VerticalAlignment="Top" Width="174" Click="buttonMain3_Click"/>
+        <Button x:Name="buttonAddMedicaments" Content="AddMedicaments" HorizontalAlignment="Left" Height="39" Margin="73,31,0,0" VerticalAlignment="Top" Width="151" Click="buttonAddMedicaments_Click"/>
+
+    </Grid>
+</Page>

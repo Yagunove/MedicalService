@@ -16,9 +16,9 @@ namespace KDZ_Yagunov.Andrey_MedicalService
             set { _name = value; }
         }
 
-        private string _age;
+        private int _age;
 
-        public string Age
+        public int Age
         {
             get { return _age; }
             set { _age = value; }
@@ -39,7 +39,7 @@ namespace KDZ_Yagunov.Andrey_MedicalService
             get { return _diagnosis; }
             set { _diagnosis = value; }
         }
-        public Patient(string name, string age, int status, string diagnosis)
+        public Patient(string name, int age, int status, string diagnosis)
         {
             _name = name;
             _age = age;

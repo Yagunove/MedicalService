@@ -56,7 +56,10 @@ namespace KDZ_Yagunov.Andrey_MedicalService
                 buttonLogin_Click(null, null);
         }
 
-       
-    }
+        private void buttonWhy_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(Pages.WhyPage);
+        }
+        }
 }
 

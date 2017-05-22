@@ -11,7 +11,8 @@
     <Grid>
         <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Height="24" Margin="22,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355"/>
         <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="22"  VerticalAlignment="Top" Width="355" Margin="22,80,0,0"/>
-        <Button x:Name="buttonLogin" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="165,118,0,0" Click="buttonLogin_Click"/>
+        <Button x:Name="buttonLogin" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="355" Margin="22,118,0,0" Click="buttonLogin_Click" Height="65"/>
+        <Button x:Name="buttonWhy" Content="Почему мы перешли к постраничной навигации?" HorizontalAlignment="Left" Height="36" Margin="22,207,0,0" VerticalAlignment="Top" Width="355" Click="buttonWhy_Click"/>
 
     </Grid>
 </Page>

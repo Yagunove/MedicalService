@@ -9,6 +9,8 @@
       Title="MainPage">
 
     <Grid>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="113" Margin="10,69,0,0" TextWrapping="Wrap" Text="Welcome to papa's house!" VerticalAlignment="Top" Width="195"/>
+        <Button x:Name="buttonDoctor" Content="Doctor" HorizontalAlignment="Left" Height="40" Margin="31,39,0,0" VerticalAlignment="Top" Width="238" Click="buttonDoctor_Click"/>
+        <Button x:Name="buttonPatient" Content="Patient" HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="31,100,0,0" Height="32" Click="buttonPatient_Click"/>
+        <Button x:Name="buttonMedicaments" Content="Medicaments" HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="31,153,0,0" Height="39" Click="buttonMedicaments_Click"/>
     </Grid>
 </Page>

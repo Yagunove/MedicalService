@@ -55,6 +55,43 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddDoctorPage.xaml.cs">
+      <DependentUpon>AddDoctorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddMedicamentsPage.xaml.cs">
+      <DependentUpon>AddMedicamentsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddPatientPage.xaml.cs">
+      <DependentUpon>AddPatientPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorPage.xaml.cs">
+      <DependentUpon>DoctorPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MedicamentsPage.xaml.cs">
+      <DependentUpon>MedicamentsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PatientPage.xaml.cs">
+      <DependentUpon>PatientPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WhyPage.xaml.cs">
+      <DependentUpon>WhyPage.xaml</DependentUpon>
+    </Compile>
+    <Page Include="AddDoctorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddMedicamentsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddPatientPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DoctorPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -82,6 +119,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MedicamentsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PatientPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WhyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Medicaments.cs" />
