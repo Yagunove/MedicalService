@@ -9,6 +9,12 @@
       Title="AddPatientPage">
 
     <Grid>
-        
+        <Image x:Name="image" Source="/images/add_patient.png" HorizontalAlignment="Left" Height="132" Margin="10,139,0,0" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="textBox" Height="31" Margin="10,10,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox1" Height="35" Margin="10,55,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" Height="35" Margin="10,104,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
+        <Button x:Name="button" Content="Button" Height="33" Margin="133,153,10,0" VerticalAlignment="Top"/>
+        <Button x:Name="button1" Content="Button" Height="30" Margin="133,201,10,0" VerticalAlignment="Top"/>
+
     </Grid>
 </Page>

@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KDZ_Yagunov.Andrey_MedicalService"
         mc:Ignorable="d"
-        Title="Информационно-справочная система медицинского учреждения" Height="300" Width="400
+        Title="Информационно-справочная система медицинского учреждения" Height="450" Width="450
         ">
     <Grid Margin="-2,0,2,11">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="7*"/>
             <ColumnDefinition Width="985*"/>
         </Grid.ColumnDefinitions>
-        <Frame x:Name="frameMain" NavigationUIVisibility="Hidden" Grid.ColumnSpan="2" Margin="0,0,0,10"/>
+        <Frame x:Name="frameMain" NavigationUIVisibility="Hidden" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Margin="0,10,-3,-10"/>
        
     </Grid>
 </Window>

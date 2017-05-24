@@ -162,6 +162,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\pills.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\login_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\hospital.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\meds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\patient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\thinking-face.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\scrubs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\add_patient.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

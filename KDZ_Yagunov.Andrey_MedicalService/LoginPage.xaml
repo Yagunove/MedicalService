@@ -9,10 +9,15 @@
       Title="LoginPage">
 
     <Grid>
-        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Height="24" Margin="22,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="355"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="22"  VerticalAlignment="Top" Width="355" Margin="22,80,0,0"/>
-        <Button x:Name="buttonLogin" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="355" Margin="22,118,0,0" Click="buttonLogin_Click" Height="65"/>
-        <Button x:Name="buttonWhy" Content="Почему мы перешли к постраничной навигации?" HorizontalAlignment="Left" Height="36" Margin="22,207,0,0" VerticalAlignment="Top" Width="355" Click="buttonWhy_Click"/>
+        <TextBox x:Name="textBoxLogin" HorizontalAlignment="Left" Height="33" Margin="10,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="193"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="33"  VerticalAlignment="Top" Width="192" Margin="208,187,0,0"/>
+        <Button x:Name="buttonLogin" Content="Log in" FontSize="20"  HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Margin="10,225,0,0" Click="buttonLogin_Click" Height="34"/>
+        <Button x:Name="buttonWhy" FontSize="13.5" Content="Почему мы перешли к постраничной навигации?" HorizontalAlignment="Left" Height="34" Margin="10,264,0,0" VerticalAlignment="Top" Width="380" Click="buttonWhy_Click"/>
+        <Image x:Name="image" Source="images/login.png" HorizontalAlignment="Left" Height="160" Margin="117,-3,0,0" VerticalAlignment="Top" Width="162"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="18" Margin="10,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="66"><Run Text="Username"/><Run Text=":"/></TextBlock>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="22" Margin="208,169,0,0" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Width="71"/>
+        <Image x:Name="image1" Source="/images/login_icon.png" HorizontalAlignment="Left" Height="34" Margin="10,225,0,0" VerticalAlignment="Top" Width="33"/>
+        <Image x:Name="image2" Source="/images/question.png" HorizontalAlignment="Left" Height="33" Margin="10,264,0,0" VerticalAlignment="Top" Width="37"/>
 
     </Grid>
 </Page>

@@ -5,12 +5,20 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:KDZ_Yagunov.Andrey_MedicalService"
       mc:Ignorable="d" 
-      d:DesignHeight="300" d:DesignWidth="300"
+      d:DesignHeight="400" d:DesignWidth="400"
       Title="MainPage">
 
-    <Grid>
-        <Button x:Name="buttonDoctor" Content="Doctor" HorizontalAlignment="Left" Height="40" Margin="31,39,0,0" VerticalAlignment="Top" Width="238" Click="buttonDoctor_Click"/>
-        <Button x:Name="buttonPatient" Content="Patient" HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="31,100,0,0" Height="32" Click="buttonPatient_Click"/>
-        <Button x:Name="buttonMedicaments" Content="Medicaments" HorizontalAlignment="Left" VerticalAlignment="Top" Width="238" Margin="31,153,0,0" Height="39" Click="buttonMedicaments_Click"/>
+    <Grid Height="400" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="400">
+        <Button x:Name="buttonDoctor" Content="Doctor" FontSize="16" HorizontalAlignment="Left" Height="38" Margin="10,72,0,0" VerticalAlignment="Top" Width="380" Click="buttonDoctor_Click"/>
+        <Button x:Name="buttonPatient" Content="Patient" FontSize="16" HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Margin="10,154,0,0" Height="38" Click="buttonPatient_Click"/>
+        <Button x:Name="buttonMedicaments" FontSize="16" Content="Medicaments" HorizontalAlignment="Left" VerticalAlignment="Top" Width="380" Margin="10,234,0,0" Height="39" Click="buttonMedicaments_Click"/>
+        <TextBlock x:Name="textBlock" FontWeight="Bold"  Foreground="White" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="13" Margin="10,369,0,0" Width="380" Height="21" Text="This is the main page of the application you're now enjoying!"/>
+        <Image x:Name="image" Source="/images/Meds.png" HorizontalAlignment="Left" Height="17" Margin="125,247,0,0" VerticalAlignment="Top" Width="26"/>
+        <Image x:Name="image1" Source="/images/doctor.png" HorizontalAlignment="Left" Height="19" Margin="125,82,0,0" VerticalAlignment="Top" Width="27"/>
+        <Image x:Name="image2" Source="/images/patient.png" HorizontalAlignment="Left" Height="20" Margin="126,163,0,0" VerticalAlignment="Top" Width="26"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/hospital.jpg">
+            </ImageBrush>
+        </Grid.Background>
     </Grid>
 </Page>

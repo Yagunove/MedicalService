@@ -9,8 +9,19 @@
       Title="WhyPage">
 
     <Grid>
-        <Button x:Name="buttonBack" Content="Back to the Login Page" HorizontalAlignment="Left" Height="34" Margin="10,245,0,0" VerticalAlignment="Top" Width="280" Click="buttonBack_Click"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="230" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"><Run Text="Почему после нескольких недель работы с данным приложением как с приложением, в основе структуры котор"/><Run Text="о"/><Run Text="го лежат &quot;окна&quot;, я сделал переход к постраничной навигации?"/><LineBreak/><Run Text="На это есть "/><Run Text="простая причина:"/><LineBreak/><Run Text="Большое количество разделов данного приложения ("/><Run Text="Doctor,Patient, Medicaments)"/><Run Text=" в формате окон либо загромождало бы окно пользователя"/><Run Text=" большим количеством кнопок и боксов"/><Run Text=", либо каждый переход в новый раздел (будь то &quot;"/><Run Text="Add new Doctor"/><Run Text="&quot;"/><Run Text=")"/><Run Text=" создавал бы новые окна"/><Run Text=", из-за чего интерфейс выглядел бы &quot;дерганным&quot;. Но теперь у нас есть постраничная навигация"/><Run Text=", благодаря которой все так удобно."/></TextBlock>
+        <Button x:Name="buttonBack" Content="Back to the Login Page" HorizontalAlignment="Left" Height="34" Margin="10,256,0,0" VerticalAlignment="Top" Width="280" Click="buttonBack_Click"/>
+        <TextBlock x:Name="textBlock" FontSize="11" HorizontalAlignment="Left" Height="230" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"><Run Text="Почему после нескольких недель работы с данным приложением как с приложением, в основе структуры котор"/><Run Text="о"/><Run Text="го лежат &quot;окна&quot;, я сделал переход к постраничной навигации?"/><LineBreak/><Run Text="На это есть "/><Run Text="простая причина:"/><LineBreak/><Run Text="Большое количество разделов данного приложения ("/><Run Text="Doctor,Patient, Medicaments)"/><Run Text=" в формате окон либо загромождало бы окно пользователя"/><Run Text=" большим количеством кнопок и боксов"/><Run Text=", либо каждый перех"/><Run Text="од в новый раздел (будь то &quot;"/><Run Text="Add new Doctor"/><Run Text="&quot;"/><Run Text=")"/><Run Text=" создавал бы новые "/><Run Text="окна"/><Run Text=", из-за чего интерфейс "/><Run Text="выглядел бы &quot;дерганным&quot;. Но теперь у нас есть постраничная навигация"/><Run Text=", благодаря которой все так удобно."/><InlineUIContainer>
+                <Image x:Name="image" Source="/images/thinking-face.png" Height="40" Width="286" RenderTransformOrigin="0,0">
+                    <Image.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0.176"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </Image.RenderTransform>
+                </Image>
+            </InlineUIContainer></TextBlock>
 
     </Grid>
 </Page>

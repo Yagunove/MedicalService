@@ -36,6 +36,25 @@ namespace KDZ_Yagunov.Andrey_MedicalService
                 textBoxDoctorRating.Focus();
                 return;
             }
+            if (rating < 0 || rating > 10)
+            {
+                MessageBox.Show("Рейтинг должен быть от 0 до 10 включительно");
+                textBoxDoctorRating.Focus();
+                return;
+            }
+            if (string.IsNullOrWhiteSpace(textBoxDoctorName.Text))
+            {
+                MessageBox.Show("Необходимо ввести имя");
+                textBoxDoctorName.Focus();
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(textBoxDoctorSpecialty.Text))
+            {
+                MessageBox.Show("Необходимо ввести специальность");
+                textBoxDoctorName.Focus();
+                return;
+            }
 
             doctor = new Doctor(textBoxDoctorName.Text, textBoxDoctorSpecialty.Text, rating);
             textBoxDoctorName.Text = "";
@@ -53,4 +72,5 @@ namespace KDZ_Yagunov.Andrey_MedicalService
 
         }
     }
+
 }

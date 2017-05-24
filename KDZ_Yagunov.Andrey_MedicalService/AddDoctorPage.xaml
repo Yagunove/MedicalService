@@ -8,12 +8,18 @@
       d:DesignHeight="300" d:DesignWidth="300"
       Title="AddDoctorPage">
 
-    <Grid>
-        <TextBox x:Name="textBoxDoctorName" HorizontalAlignment="Left" Height="38" Margin="10,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
-        <Button x:Name="buttonAddDoctor" Content="addDoctor" HorizontalAlignment="Left" Height="35" Margin="20,192,0,0" VerticalAlignment="Top" Width="157" Click="buttonAddDoctor_Click"/>
-        <TextBox x:Name="textBoxDoctorSpecialty" HorizontalAlignment="Left" Height="38" Margin="10,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
-        <TextBox x:Name="textBoxDoctorRating" HorizontalAlignment="Left" Height="32" Margin="20,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" TextChanged="textBoxDoctorRating_TextChanged"/>
-        <Button x:Name="buttonBackToDoctorPage" Content="Back!!" HorizontalAlignment="Left" Height="35" Margin="201,192,0,0" VerticalAlignment="Top" Width="80" Click="buttonBackToDoctorPage_Click"/>
-
+    <Grid Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Width="290" Margin="10,0,0,0">
+        <TextBox x:Name="textBoxDoctorName" Margin="64,10,10,0" TextWrapping="Wrap" Height="27" VerticalAlignment="Top"/>
+        <Button x:Name="buttonAddDoctor" Content="addDoctor" Height="20" Margin="158,75,10,0" VerticalAlignment="Top" Click="buttonAddDoctor_Click"/>
+        <TextBox x:Name="textBoxDoctorSpecialty" Height="28" Margin="64,42,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxDoctorRating" HorizontalAlignment="Left" Height="20" Margin="64,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="89" TextChanged="textBoxDoctorRating_TextChanged"/>
+        <Button x:Name="buttonBackToDoctorPage" Content="Go to previous page" Margin="10,100,10,175" Click="buttonBackToDoctorPage_Click"/>
+        <TextBlock x:Name="textBlock"  HorizontalAlignment="Left" Height="27" Margin="5,16,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="42"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="22" Margin="5,48,0,0" TextWrapping="Wrap" Text="Specialty" VerticalAlignment="Top" Width="59"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="21" Margin="5,78,0,0" TextWrapping="Wrap" Text="Rating" VerticalAlignment="Top" Width="65"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="images/scrubs.jpg">
+            </ImageBrush>
+        </Grid.Background>
     </Grid>
 </Page>

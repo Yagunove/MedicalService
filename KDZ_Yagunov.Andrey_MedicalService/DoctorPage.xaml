@@ -9,9 +9,10 @@
       Title="DoctorPage">
 
     <Grid>
-        <Button x:Name="buttonMain1" Content="BACK" HorizontalAlignment="Left" Height="49" Margin="157,208,0,0" VerticalAlignment="Top" Width="105" Click="buttonMain1_Click"/>
-        <Button x:Name="buttonAddDoctor" Content="AddDoctor" HorizontalAlignment="Left" Height="49" Margin="25,208,0,0" VerticalAlignment="Top" Width="114" Click="buttonAddDoctor_Click"/>
-        <ListBox x:Name="listBoxDoctorPeople" HorizontalAlignment="Left" Height="170" Margin="25,10,0,0" VerticalAlignment="Top" Width="237" DisplayMemberPath="Name"/>
+        <Button x:Name="buttonMain1" Content="Go to previous page" HorizontalAlignment="Left" Height="26" Margin="10,264,0,0" VerticalAlignment="Top" Width="280" Click="buttonMain1_Click"/>
+        <Button x:Name="buttonAddDoctor" Content="Add Doctor" HorizontalAlignment="Left" Height="49" Margin="10,210,0,0" VerticalAlignment="Top" Width="132" Click="buttonAddDoctor_Click"/>
+        <ListBox x:Name="listBoxDoctorPeople" HorizontalAlignment="Left" Height="195" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button x:Name="buttonRemoveDoctor" Content="Remove" HorizontalAlignment="Left" Height="49" Margin="156,210,0,0" VerticalAlignment="Top" Width="134"/>
 
     </Grid>
 </Page>
