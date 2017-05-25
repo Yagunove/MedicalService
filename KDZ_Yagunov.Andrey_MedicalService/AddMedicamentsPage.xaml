@@ -9,10 +9,10 @@
       Title="AddMedicamentsPage">
 
     <Grid Height="300" VerticalAlignment="Top" HorizontalAlignment="Left" Width="300">
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
-        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="24" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
-        <Button x:Name="button" Content="Add" HorizontalAlignment="Left" Height="28" Margin="10,89,0,0" VerticalAlignment="Top" Width="190"/>
-        <Button x:Name="button1" Content="Go to previous page" HorizontalAlignment="Left" Height="29" Margin="10,122,0,0" VerticalAlignment="Top" Width="190"/>
+        <TextBox x:Name="textBoxMedicamentsName" HorizontalAlignment="Left" Height="23" Margin="10,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="280"/>
+        <TextBox x:Name="textBoxMedicamentsQuantity" HorizontalAlignment="Left" Height="24" Margin="10,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190"/>
+        <Button x:Name="buttonAddMedicaments" Content="Add" HorizontalAlignment="Left" Height="28" Margin="10,89,0,0" VerticalAlignment="Top" Width="190" Click="buttonAddMedicaments_Click"/>
+        <Button x:Name="buttonBackToMedicamentsPage" Content="Go to previous page" HorizontalAlignment="Left" Height="29" Margin="10,122,0,0" VerticalAlignment="Top" Width="190" Click="buttonBackToMedicamentsPage_Click"/>
         <TextBlock x:Name="textBlock" Foreground="White" HorizontalAlignment="Left" Height="20" Margin="10,43,0,0" TextWrapping="Wrap" Text="Quantity:" VerticalAlignment="Top" Width="54"/>
         <TextBlock x:Name="textBlock1" Foreground="White" HorizontalAlignment="Left" Height="19" Margin="13,1,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Width="64"/>
         <Grid.Background>

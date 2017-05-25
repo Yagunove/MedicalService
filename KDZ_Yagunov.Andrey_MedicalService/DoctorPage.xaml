@@ -10,9 +10,9 @@
 
     <Grid>
         <Button x:Name="buttonMain1" Content="Go to previous page" HorizontalAlignment="Left" Height="26" Margin="10,264,0,0" VerticalAlignment="Top" Width="280" Click="buttonMain1_Click"/>
-        <Button x:Name="buttonAddDoctor" Content="Add Doctor" HorizontalAlignment="Left" Height="49" Margin="10,210,0,0" VerticalAlignment="Top" Width="132" Click="buttonAddDoctor_Click"/>
-        <ListBox x:Name="listBoxDoctorPeople" HorizontalAlignment="Left" Height="195" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
-        <Button x:Name="buttonRemoveDoctor" Content="Remove" HorizontalAlignment="Left" Height="49" Margin="156,210,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="buttonAddDoctor" Content="Add Doctor" HorizontalAlignment="Left" Height="37" Margin="10,222,0,0" VerticalAlignment="Top" Width="132" Click="buttonAddDoctor_Click"/>
+        <ListBox x:Name="listBoxDoctorPeople" HorizontalAlignment="Left" Height="207" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button x:Name="buttonRemoveDoctor" Content="Remove" HorizontalAlignment="Left" Height="37" Margin="156,222,0,0" VerticalAlignment="Top" Width="134" Click="buttonRemoveDoctor_Click"/>
 
     </Grid>
 </Page>

@@ -9,10 +9,10 @@
       Title="PatientPage">
 
     <Grid>
-        <Button x:Name="buttonMain2" Content="Get Down" HorizontalAlignment="Left" Height="29" Margin="10,261,0,0" VerticalAlignment="Top" Width="280" Click="buttonMain2_Click"/>
-        <Button x:Name="buttonAddPatient" Content="addPatient" HorizontalAlignment="Left" Height="35" Margin="10,221,0,0" VerticalAlignment="Top" Width="143" Click="buttonAddPatient_Click"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="206" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="35" Margin="163,221,0,0" VerticalAlignment="Top" Width="127"/>
+        <Button x:Name="buttonMain2" Content="Go to previous page" HorizontalAlignment="Left" Height="29" Margin="10,261,0,0" VerticalAlignment="Top" Width="280" Click="buttonMain2_Click"/>
+        <Button x:Name="buttonAddPatient" Content="Add Patient" HorizontalAlignment="Left" Height="35" Margin="10,221,0,0" VerticalAlignment="Top" Width="143" Click="buttonAddPatient_Click"/>
+        <ListBox x:Name="listBoxPatient" HorizontalAlignment="Left" Height="206" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button x:Name="buttonRemovePatient" Content="Remove" HorizontalAlignment="Left" Height="35" Margin="163,221,0,0" VerticalAlignment="Top" Width="127" Click="buttonRemovePatient_Click"/>
 
     </Grid>
 </Page>

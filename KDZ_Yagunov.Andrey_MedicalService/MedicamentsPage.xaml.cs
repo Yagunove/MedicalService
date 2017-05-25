@@ -20,10 +20,19 @@ namespace KDZ_Yagunov.Andrey_MedicalService
     /// </summary>
     public partial class MedicamentsPage : Page
     {
+        List<Medicaments> _meds = new List<Medicaments>();
+
         public MedicamentsPage()
         {
             InitializeComponent();
         }
+
+        public void NewMedicamentsAdded(Medicaments medicaments)
+        {
+            _meds.Add(medicaments);
+            listBoxMedicaments.Items.Add($"NAME: {medicaments.Name}   QUANTITY: {medicaments.Quantity}");
+        }
+
 
         private void buttonMain3_Click(object sender, RoutedEventArgs e)
         {
@@ -34,6 +43,17 @@ namespace KDZ_Yagunov.Andrey_MedicalService
         {
             NavigationService.Navigate(Pages.AddMedicamentsPage);
         }
-    }
 
+
+        private void buttonRemoveMedicaments_Click(object sender, RoutedEventArgs e)
+        {
+
+            {
+                listBoxMedicaments.Items.Remove(listBoxMedicaments.SelectedItem);
+
+
+
+            }
+        }
+    }
 }

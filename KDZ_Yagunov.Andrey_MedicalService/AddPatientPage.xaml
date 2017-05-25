@@ -10,11 +10,14 @@
 
     <Grid>
         <Image x:Name="image" Source="/images/add_patient.png" HorizontalAlignment="Left" Height="132" Margin="10,139,0,0" VerticalAlignment="Top" Width="169"/>
-        <TextBox x:Name="textBox" Height="31" Margin="10,10,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox1" Height="35" Margin="10,55,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox2" Height="35" Margin="10,104,10,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top"/>
-        <Button x:Name="button" Content="Button" Height="33" Margin="133,153,10,0" VerticalAlignment="Top"/>
-        <Button x:Name="button1" Content="Button" Height="30" Margin="133,201,10,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxPatientName" Height="30" Margin="10,15,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxPatientAge" Height="30" Margin="10,60,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxPatientDiagnosis" Height="30" Margin="10,109,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="buttonAddPatient" Content="Add" Height="60" Margin="133,144,10,0" VerticalAlignment="Top" Click="buttonAddPatient_Click"/>
+        <Button x:Name="buttonBackToPatientPage" Content="Go to previous page" Height="60" Margin="133,208,10,0" VerticalAlignment="Top" Click="buttonBackToPatientPage_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="14" Margin="10,-4,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Width="77"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="26" Margin="10,41,0,0" TextWrapping="Wrap" Text="Age:" VerticalAlignment="Top" Width="38"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Height="34" Margin="10,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="59"><Run Text="Diagnosis"/><Run Text=":"/></TextBlock>
 
     </Grid>
 </Page>

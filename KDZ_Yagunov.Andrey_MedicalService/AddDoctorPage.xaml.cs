@@ -58,6 +58,8 @@ namespace KDZ_Yagunov.Andrey_MedicalService
 
             doctor = new Doctor(textBoxDoctorName.Text, textBoxDoctorSpecialty.Text, rating);
             textBoxDoctorName.Text = "";
+            textBoxDoctorRating.Text = "";
+            textBoxDoctorSpecialty.Text = "";
             Pages.DoctorPage.NewDoctorAdded(doctor);
             NavigationService.GoBack();
         }

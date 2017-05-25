@@ -11,8 +11,8 @@
     <Grid>
         <Button x:Name="buttonMain3" Content="Go to previous page" HorizontalAlignment="Left" Height="33" Margin="10,257,0,0" VerticalAlignment="Top" Width="280" Click="buttonMain3_Click"/>
         <Button x:Name="buttonAddMedicaments" Content="Add Medicaments" HorizontalAlignment="Left" Height="39" Margin="10,213,0,0" VerticalAlignment="Top" Width="141" Click="buttonAddMedicaments_Click"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Height="39" Margin="156,213,0,0" VerticalAlignment="Top" Width="134"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="198" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
+        <Button x:Name="buttonRemoveMedicaments" Content="Remove" HorizontalAlignment="Left" Height="39" Margin="156,213,0,0" VerticalAlignment="Top" Width="134" Click="buttonRemoveMedicaments_Click"/>
+        <ListBox x:Name="listBoxMedicaments" HorizontalAlignment="Left" Height="198" Margin="10,10,0,0" VerticalAlignment="Top" Width="280"/>
 
     </Grid>
 </Page>

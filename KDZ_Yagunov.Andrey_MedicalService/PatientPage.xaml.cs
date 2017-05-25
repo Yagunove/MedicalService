@@ -20,9 +20,26 @@ namespace KDZ_Yagunov.Andrey_MedicalService
     /// </summary>
     public partial class PatientPage : Page
     {
+        List<Patient> _patient = new List<Patient>();
         public PatientPage()
         {
             InitializeComponent();
+        }
+        public void NewPatientAdded(Patient patient)
+        {
+            _patient.Add(patient);
+            listBoxPatient.Items.Add($"NAME: {patient.Name}   AGE: {patient.Age}   DIAGNOSIS: {patient.Diagnosis}");
+        }
+
+        private void buttonRemovePatient_Click(object sender, RoutedEventArgs e)
+        {
+
+            {
+                listBoxPatient.Items.Remove(listBoxPatient.SelectedItem);
+
+
+
+            }
         }
 
         private void buttonMain2_Click(object sender, RoutedEventArgs e)
